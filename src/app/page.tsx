@@ -154,7 +154,7 @@ export default function HomePage() {
                 tags={["Full Stack", "React", "GenAI"]}
               />
               <ProjectCard 
-                title="The Traverller" 
+                title="The Traveller" 
                 category="Interactive City Map with Routing Engine"
                 description="Built a custom routing engine using A and Ant Colony Optimization, optimized for bounded-time (<50s) delivery route search over a real street graph. Integrated with an EZGL/GTK UI for interactive visualization."
                 tags={["A*", "Performance Optimization", "Graph Algo", "C++"]}
