@@ -144,7 +144,7 @@ export default function HomePage() {
               <ProjectCard 
                 title="AURA" 
                 category="Mental Health AI"
-                description="A multimodal, personality-adaptive conversational agent. Leading 22 students to build recognition stacks (RoBERTa/HuBERT) and aligned generation systems."
+                description="A multimodal, personality-adaptive conversational agent. Leading 22 students to build recognition stacks (RoBERTa/HuBERT) and aligned generation systems. Presented at IEEE MIT URTC in Oct. 2025."
                 tags={["Project Lead", "Research", "Prosody Analysis", "RLAIF"]}
               />
               <ProjectCard 
