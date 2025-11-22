@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Amelia Zhang - Portfolio",
   description: "ECE @ U of T.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/icon.png",
   },
 };
 
