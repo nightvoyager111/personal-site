@@ -84,7 +84,8 @@ export default function HomePage() {
                 <h3 className="text-lg font-medium text-teal-300 mb-2">The Mission</h3>
                 <p className="text-slate-400 leading-relaxed">
                   At UofT, I lead <strong className="text-slate-100">AURA</strong>, a 22-person team building personality-adaptive agents. 
-                  I don't just train models; I align them. My work focuses on RLAIF, multimodal perception (Text+Audio), 
+                  {/* FIXED: Changed 'don't' to 'don&apos;t' */}
+                  I don&apos;t just train models; I align them. My work focuses on RLAIF, multimodal perception (Text+Audio), 
                   and ensuring AI can handle the nuances of human mental health.
                 </p>
               </BentoCard>
@@ -96,7 +97,8 @@ export default function HomePage() {
                   <span className="relative text-4xl">🍁</span>
                 </div>
                 <h3 className="font-semibold text-slate-200">Toronto, ON</h3>
-                <p className="text-sm text-slate-500">UofT Engineering '27</p>
+                {/* FIXED: Changed '27 to &apos;27 */}
+                <p className="text-sm text-slate-500">UofT Engineering &apos;27</p>
               </BentoCard>
 
               {/* Card 3: Tech Stack (Span 3) */}
@@ -111,7 +113,8 @@ export default function HomePage() {
               {/* Card 4: Algorithm Highlight (Span 3) */}
               <BentoCard className="md:col-span-3" title="Algorithm Chops">
                 <p className="text-sm text-slate-400 mb-3">
-                  Built "The Traveller" routing engine in C++.
+                  {/* FIXED: Changed "The Traveller" to &quot;The Traveller&quot; */}
+                  Built &quot;The Traveller&quot; routing engine in C++.
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="h-1.5 flex-1 bg-slate-800 rounded-full overflow-hidden">
@@ -174,7 +177,8 @@ export default function HomePage() {
 
           {/* 5. CONTACT */}
           <motion.section id="contact" variants={itemVariants} className="py-12 border-t border-slate-800/50 text-center">
-            <h2 className="text-3xl font-bold mb-4">Let's build safe, empathetic AI.</h2>
+            {/* FIXED: Changed Let's to Let&apos;s */}
+            <h2 className="text-3xl font-bold mb-4">Let&apos;s build safe, empathetic AI.</h2>
             <p className="text-slate-400 mb-8">Always open to discussing mental health tech and multimodal systems.</p>
             <a href="mailto:your_email@example.com" className="text-teal-400 hover:text-teal-300 underline underline-offset-4 text-lg">
               Get in touch
