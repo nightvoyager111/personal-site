@@ -108,7 +108,7 @@ export default function HomePage() {
                   <span className="text-3xl">🇨🇦</span>
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-200 tracking-tight">Toronto, ON</h3>
-                <p className="text-sm text-zinc-500 font-medium">UofT Engineering &apos;27</p>
+                <p className="text-sm text-zinc-500 font-medium">UofT Engineering &apos;27 + PEY (16 months after third year)</p>
               </BentoCard>
 
               <BentoCard className="md:col-span-3" title="Core Stack">
