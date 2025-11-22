@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Amelia Zhang - Portfolio",
-  description: "ECE student @ U of T.",
+  description: "ECE @ U of T.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
