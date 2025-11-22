@@ -62,7 +62,7 @@ export default function HomePage() {
             {/* TYPOGRAPHY CHANGE: font-medium + tracking-tighter */}
             <h1 className="font-medium tracking-tighter leading-[1.05] text-zinc-100">
               <span className="text-2xl md:text-4xl block mb-2"> 
-                HELLO! I'M
+                HELLO! I&apos;M
               </span>
               <span className="text-5xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-fuchsia-300 to-indigo-300">
                 Amelia Zhang
