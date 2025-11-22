@@ -70,7 +70,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl text-zinc-400 max-w-2xl leading-relaxed font-medium tracking-tight">
-              A third-year Computer Engineering student at the University of Toronto, working on  
+              A third-year Computer Engineering student at the University of Toronto, currently working on  
               <span className="text-zinc-200 font-semibold"> multimodal emotion recognition</span> and
               <span className="text-zinc-200 font-semibold"> personality-adaptive conversational agents.</span>
             </p>
@@ -97,8 +97,9 @@ export default function HomePage() {
               <BentoCard className="md:col-span-4 bg-gradient-to-br from-zinc-900/80 to-zinc-900/40 backdrop-blur-md">
                 <h3 className="text-xl font-semibold text-indigo-300 mb-3 tracking-tight">The Mission</h3>
                 <p className="text-zinc-400 leading-relaxed text-lg font-medium tracking-tight">
-                  At UofT, I lead <strong className="text-zinc-100">AURA</strong>, a 22-person team building personality-adaptive agents. 
-                  I focus on <strong>Safety</strong> and <strong>Empathy</strong> alignment (RLAIF), ensuring our models support users rather than just generating text.
+                  I am exploring how AI can be made more emotionally intelligent.
+                  Not perfectly, but enough to respond with clarity, safety, and empathy.
+                  That's the direction guiding everything I work on.
                 </p>
               </BentoCard>
 
@@ -112,9 +113,9 @@ export default function HomePage() {
 
               <BentoCard className="md:col-span-3" title="Core Stack">
                 <div className="flex flex-wrap gap-2">
-                   <Tag>Python</Tag> <Tag>PyTorch</Tag> <Tag>Next.js</Tag> 
+                   <Tag>Python</Tag> <Tag>PyTorch</Tag> <Tag>C/C++</Tag> <Tag>Next.js</Tag> 
                    <Tag>FastAPI</Tag> <Tag>Supabase</Tag> <Tag>RLAIF</Tag>
-                   <Tag>Multimodal</Tag> <Tag>Transformers</Tag>
+                   <Tag>Multimodal</Tag> <Tag>Transformers</Tag> <Tag>FPGA</Tag> <Tag>Verilog</Tag> <Tag>Assembly</Tag>
                 </div>
               </BentoCard>
 
@@ -126,7 +127,7 @@ export default function HomePage() {
                   <div className="h-2 flex-1 bg-zinc-800 rounded-full overflow-hidden">
                     <div className="h-full w-[95%] bg-rose-400 rounded-full shadow-[0_0_15px_rgba(251,113,133,0.4)]"></div>
                   </div>
-                  <span className="text-xs font-bold text-rose-300 tracking-wider">Top 6% Speed</span>
+                  <span className="text-xs font-bold text-rose-300 tracking-wider">6th place in the algorithm contest</span>
                 </div>
               </BentoCard>
             </div>
@@ -143,14 +144,27 @@ export default function HomePage() {
               <ProjectCard 
                 title="AURA" 
                 category="Mental Health AI"
-                description="A multimodal, personality-adaptive conversational agent. Leading 22 students to build perception stacks (RoBERTa/HuBERT) and aligned generation systems."
-                tags={["Project Lead", "RLAIF", "Audio+Text"]}
+                description="A multimodal, personality-adaptive conversational agent. Leading 22 students to build recognition stacks (RoBERTa/HuBERT) and aligned generation systems."
+                tags={["Project Lead", "Research", "Prosody Analysis", "RLAIF"]}
               />
               <ProjectCard 
                 title="Ask-TapeB" 
                 category="Wellness Assistant"
                 description="Full-stack mental health app combining mood tracking with a sentiment-aware chatbot. Built with Next.js, FastAPI, and Supabase."
                 tags={["Full Stack", "React", "GenAI"]}
+              />
+              <ProjectCard 
+                title="The Traverller" 
+                category="Interactive City Map with Routing Engine"
+                description="Built a custom routing engine using A and Ant Colony Optimization, optimized for bounded-time (<50s) delivery route search over a real street graph. Integrated with an EZGL/GTK UI for interactive visualization."
+                tags={["A*", "Performance Optimization", "Graph Algo", "C++"]}
+              />
+              <ProjectCard 
+                title="Monkeypox Case Prediction with Machine Learning" 
+                category="Publication"
+                description="Developed a time-series forecasting model using Python and Facebook Prophet to predict global Monkeypox infection trends.
+                Co-authored a research paper."
+                tags={["Python", "Time-Series Forecasting", "Prophet", "Research"]}
               />
             </div>
           </motion.section>
