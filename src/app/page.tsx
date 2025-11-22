@@ -99,7 +99,7 @@ export default function HomePage() {
                 <p className="text-zinc-400 leading-relaxed text-lg font-medium tracking-tight">
                   I am exploring how AI can be made more emotionally intelligent.
                   Not perfectly, but enough to respond with clarity, safety, and empathy.
-                  That's the direction guiding everything I work on.
+                  That&apos;s the direction guiding everything I work on.
                 </p>
               </BentoCard>
 
