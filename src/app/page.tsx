@@ -197,10 +197,10 @@ export default function HomePage() {
 
           {/* CONTACT */}
           <motion.section id="contact" variants={itemVariants} className="py-12 border-t border-zinc-800/50 text-center">
-            <h2 className="text-4xl font-bold mb-6 text-zinc-100 tracking-tighter">Let&apos;s build safe, empathetic AI.</h2>
-            <p className="text-zinc-400 mb-8 text-lg font-medium tracking-tight">Always open to discussing mental health tech and multimodal systems.</p>
-            <a href="mailto:your_email@example.com" className="text-rose-300 hover:text-rose-200 underline underline-offset-8 decoration-2 text-xl font-medium tracking-tight transition-colors">
-              Get in touch
+            <h2 className="text-4xl font-bold mb-6 text-zinc-100 tracking-tighter">Get in touch</h2>
+            {/*<p className="text-zinc-400 mb-8 text-lg font-medium tracking-tight">Feel free to send me </p> */}
+            <a href="mailto:xianghan.zhang@mail.utoronto.ca" className="text-rose-300 hover:text-rose-200 underline underline-offset-8 decoration-2 text-xl font-medium tracking-tight transition-colors">
+              Let&apos;s talk!
             </a>
           </motion.section>
 
