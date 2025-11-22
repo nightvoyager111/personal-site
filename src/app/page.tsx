@@ -55,7 +55,7 @@ export default function HomePage() {
           mental health support. I also design and ship full-stack AI tools like{" "}
           <span className="font-semibold">Ask-TapeB</span>, a wellness assistant
           that combines a chatbot, mood tracking, and analytics. Previously, I
-          built routing engines and mapping systems in C++ and placed 6th in a
+          built mapping systems in C++ and placed 6th in a
           200+ stop traveling courier optimization contest.
         </p>
 
