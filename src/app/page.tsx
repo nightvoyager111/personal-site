@@ -56,14 +56,16 @@ export default function HomePage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
               </span>
-              Open to PEY (May 2026)
+              Open to 16 months PEY Co-op Internship (May 2026)
             </div>
 
             {/* TYPOGRAPHY CHANGE: font-medium + tracking-tighter */}
-            <h1 className="text-5xl md:text-8xl font-medium tracking-tighter leading-[1.05] text-zinc-100">
-              AI designed for <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-fuchsia-300 to-indigo-300">
-                mental health.
+            <h1 className="font-medium tracking-tighter leading-[1.05] text-zinc-100">
+              <span className="text-2xl md:text-4xl block mb-2"> 
+                HELLO! I'M
+              </span>
+              <span className="text-5xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-fuchsia-300 to-indigo-300">
+                Amelia Zhang
               </span>
             </h1>
 
