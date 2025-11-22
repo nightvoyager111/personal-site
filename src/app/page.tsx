@@ -13,10 +13,10 @@ export default function HomePage() {
         {/* 1. Hero Section */}
         <motion.section
           id="hero"
-          className="max-w-5xl mx-auto px-4 py-16 lg:py-24 flex flex-col gap-6"
-          initial={{ opacity: 0, y: 20 }}
+          className="max-w-5xl mx-auto px-4 py-16 lg:py-28 flex flex-col gap-6"
+          initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           <p className="text-sm font-medium text-sky-400 uppercase tracking-[0.2em]">
             Amelia Zhang · Emotional Intelligence AI
@@ -35,7 +35,7 @@ export default function HomePage() {
           <div className="flex gap-4 mt-4">
             <a
               href="#projects"
-              className="inline-flex items-center rounded-full border border-sky-400 px-4 py-2 text-sm font-medium hover:bg-sky-400 hover:text-slate-950 transition"
+              className="inline-flex items-center rounded-full border border-teal-400 px-5 py-2 text-base font-medium hover:bg-teal-400 hover:text-zinc-950 transition-all"
             >
               View my work
             </a>
