@@ -70,9 +70,9 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl text-zinc-400 max-w-2xl leading-relaxed font-medium tracking-tight">
-              I&apos;m Amelia. I bridge the gap between 
-              <span className="text-zinc-200 font-semibold"> multimodal machine learning</span> and 
-              <span className="text-zinc-200 font-semibold"> human psychology</span> to build AI that truly understands how we feel.
+              A third-year Computer Engineering student at the University of Toronto, working on  
+              <span className="text-zinc-200 font-semibold"> multimodal emotion recognition</span> and
+              <span className="text-zinc-200 font-semibold"> personality-adaptive conversational agents.</span>
             </p>
 
             <div className="flex gap-4 mt-4">
