@@ -114,7 +114,7 @@ export default function HomePage() {
               <BentoCard className="md:col-span-3" title="Core Stack">
                 <div className="flex flex-wrap gap-2">
                    <Tag>Python</Tag> <Tag>PyTorch</Tag> <Tag>C/C++</Tag> <Tag>Next.js</Tag> 
-                   <Tag>FastAPI</Tag> <Tag>Supabase</Tag> <Tag>RLAIF</Tag>
+                   <Tag>FastAPI</Tag> <Tag>Supabase</Tag> <Tag>Reinforcement Learning</Tag> <Tag>LLM</Tag> <Tag>RAG</Tag>
                    <Tag>Multimodal</Tag> <Tag>Transformers</Tag> <Tag>FPGA</Tag> <Tag>Verilog</Tag> <Tag>Assembly</Tag>
                 </div>
               </BentoCard>
