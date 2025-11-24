@@ -75,7 +75,7 @@ export default function HomePage() {
               <span className="text-zinc-200 font-semibold"> personality-adaptive conversational agents.</span>
             </p>
 
-            <div className="flex gap-4 mt-4">
+            <div className="flex flex-wrap gap-4 mt-4">
               <a href="#projects" className="relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-zinc-100 px-8 text-lg font-medium text-zinc-900 transition-transform hover:scale-105 active:scale-95 tracking-tight">
                 View My Work
               </a>
