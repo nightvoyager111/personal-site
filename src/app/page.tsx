@@ -82,6 +82,13 @@ export default function HomePage() {
               <a href="/AmeliaZhang_CV.pdf" className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900/50 px-8 text-lg font-medium text-zinc-300 transition-colors hover:bg-zinc-800 hover:text-white tracking-tight">
                 Download CV
               </a>
+              <a href="https://www.linkedin.com/in/amelia-zhang-xh" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900/50 px-8 text-lg font-medium text-zinc-300 transition-colors hover:bg-[#0077b5] hover:border-[#0077b5] hover:text-white tracking-tight"
+              >
+                LinkedIn
+              </a>
             </div>
           </motion.section>
 
