@@ -176,6 +176,7 @@ export default function HomePage() {
             </div>
           </motion.section>
 
+        
 
           {/* EXPERIENCE */}
           <motion.section id="experience" variants={itemVariants}>
