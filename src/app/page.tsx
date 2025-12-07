@@ -121,7 +121,7 @@ export default function HomePage() {
               <BentoCard className="md:col-span-3" title="Core Stack">
                 <div className="flex flex-wrap gap-2">
                    <Tag>Python</Tag> <Tag>PyTorch</Tag> <Tag>C/C++</Tag> <Tag>Next.js</Tag> 
-                   <Tag>FastAPI</Tag> <Tag>Supabase</Tag> <Tag>Reinforcement Learning</Tag> <Tag>LLM</Tag> <Tag>RAG</Tag>
+                   <Tag>FastAPI</Tag> <Tag>Supabase</Tag> <Tag>LLM</Tag> <Tag>RAG</Tag>
                    <Tag>Multimodal</Tag> <Tag>Transformers</Tag> <Tag>FPGA</Tag> <Tag>Verilog</Tag> <Tag>Assembly</Tag>
                 </div>
               </BentoCard>
@@ -152,7 +152,7 @@ export default function HomePage() {
                 title="AURA" 
                 category="Mental Health AI"
                 description="A multimodal, personality-adaptive conversational agent. Leading 22 students to build recognition stacks (RoBERTa/HuBERT) and aligned generation systems. Presented at IEEE MIT URTC in Oct. 2025."
-                tags={["Project Lead", "Research", "Prosody Analysis", "RLAIF"]}
+                tags={["Project Lead", "Research", "Prosody Analysis"]}
               />
               <ProjectCard 
                 title="Ask-TapeB" 
