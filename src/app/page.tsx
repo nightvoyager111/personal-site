@@ -162,8 +162,8 @@ export default function HomePage() {
               />
               <ProjectCard 
                 title="The Traveller" 
-                category="Interactive City Map with Routing Engine"
-                description="Built a custom routing engine using A* and Ant Colony Optimization, optimized for bounded-time (<50s) delivery route search over a real street graph. Integrated with an EZGL/GTK UI for interactive visualization."
+                category="Interactive City Map"
+                description="Built a custom path-finding algorithm using A* and Ant Colony Optimization, optimized for bounded-time (<50s) delivery route search over a real street graph. Integrated with an EZGL/GTK UI for interactive visualization."
                 tags={["A*", "Performance Optimization", "Graph Algo", "C++"]}
               />
               <ProjectCard 
@@ -195,8 +195,8 @@ export default function HomePage() {
                 date="Jun 2025 – Aug 2025"
               />
               <ExperienceItem 
-                role="Routing Engineer & PM" 
-                company="The Traveller (C++ Engine)" 
+                role="PM" 
+                company="The Traveller (C++)" 
                 date="Jan 2025 – Apr 2025"
               />
             </div>
